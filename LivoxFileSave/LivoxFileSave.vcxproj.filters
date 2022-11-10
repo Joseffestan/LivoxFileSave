@@ -1,0 +1,211 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="ReadMe.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="LivoxFileSave.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="LivoxFileSaveDlg.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="stdafx.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="device_manager.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="mfc_lvx_def.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="mfc_lvx_file.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="mfc_lvx_sdk.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="comm\comm_port.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="command_handler\command_channel.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="command_handler\command_handler.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="command_handler\command_impl.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="command_handler\hub_command_handler.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="command_handler\lidar_command_handler.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="data_handler\data_handler.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="data_handler\hub_data_handler.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="data_handler\lidar_data_handler.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="base\io_loop.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="base\io_thread.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="base\logging.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="base\network_util.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="base\thread_base.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="base\util.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="third_party\FastCRC\FastCRC_tables.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="comm\sdk_protocol.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="CameraManipulator.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="ThreadSafeUpdateCallback.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Viewer3D.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="LivoxFileSave.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LivoxFileSaveDlg.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="device_discovery.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="device_manager.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="mfc_lvx_file.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="mfc_lvx_sdk.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="comm\comm_port.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="command_handler\command_channel.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="command_handler\command_handler.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="command_handler\command_impl.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="command_handler\hub_command_handler.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="command_handler\lidar_command_handler.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="data_handler\data_handler.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="data_handler\hub_data_handler.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="data_handler\lidar_data_handler.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="base\io_loop.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="base\io_thread.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="base\logging.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="base\network_util.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="base\thread_base.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="base\util.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="third_party\FastCRC\FastCRCsw.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="comm\sdk_protocol.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="ThreadSafeUpdateCallback.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Viewer3D.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="CameraManipulator.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="LivoxFileSave.rc">
+      <Filter>资源文件</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="res\LivoxFileSave.rc2">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="resource.hm">
+      <Filter>头文件</Filter>
+    </None>
+    <None Include="ClassDiagram.cd" />
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="res\LivoxFileSave.ico">
+      <Filter>资源文件</Filter>
+    </Image>
+  </ItemGroup>
+</Project>
